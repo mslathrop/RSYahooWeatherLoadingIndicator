@@ -34,6 +34,10 @@
 
 - (void)didScroll:(float)offset;
 
+- (void)setRadius:(NSInteger)aRadius minLength:(NSInteger)aMinLength maxLength:(NSInteger)aMaxLength lineWidth:(NSInteger)aLineWidth;
+
+- (void)startLoading;
+
 - (void)stopLoading;
 
 @end
